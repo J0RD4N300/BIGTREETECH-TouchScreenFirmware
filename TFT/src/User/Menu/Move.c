@@ -47,7 +47,8 @@ const ITEM itemMoveLen[ITEM_MOVE_LEN_NUM] = {
   {ICON_10_MM,                LABEL_10_MM},
 };
 
-const  float item_move_len[ITEM_MOVE_LEN_NUM] = {0.1f, 1, 10};
+//This looks like where to change the distance of the move buttons
+const  float item_move_len[ITEM_MOVE_LEN_NUM] = {1, 10, 100};//{0.1f, 1, 10};
 static u8    item_move_len_i = 1;
 
 static u32 nextTime = 0;

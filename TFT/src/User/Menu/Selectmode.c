@@ -15,7 +15,8 @@ const GUI_RECT rect_of_mode[SELECTMODE]={
 
 u32 select_mode [SELECTMODE]={
     ICON_MARLIN,
-    ICON_BIGTREETECH,
+    //ICON_BIGTREETECH,
+    ICON_JORDANLOGO,
 };
 
 void show_selectICON(void)
